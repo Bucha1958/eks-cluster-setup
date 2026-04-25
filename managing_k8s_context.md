@@ -70,13 +70,13 @@ kubectl config use-context <context-name>
 
 **Key Learning**
 
-Multiple Kubernetes installations on the same host can cause kubeconfig conflicts
-kubectl uses the first available kubeconfig unless explicitly configured
-AWS EKS requires explicit context switching via kubeconfig
-Proper kubeconfig management is critical in multi-cluster environments
+* ***Multiple Kubernetes installations on the same host can cause kubeconfig conflicts***
+* ***kubectl uses the first available kubeconfig unless explicitly configured***
+* ***AWS EKS requires explicit context switching via kubeconfig***
+* ***Proper kubeconfig management is critical in multi-cluster environments***
 
 **Outcome**
 
-EKS cluster successfully accessed
-k3s cluster still available locally
-kubectl context properly switched between environments
+***EKS cluster successfully accessed***
+***k3s cluster still available locally***
+***kubectl context properly switched between environments***
