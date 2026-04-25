@@ -77,6 +77,6 @@ kubectl config use-context <context-name>
 
 **Outcome**
 
-***EKS cluster successfully accessed***
-***k3s cluster still available locally***
-***kubectl context properly switched between environments***
+* ***EKS cluster successfully accessed***
+* ***k3s cluster still available locally***
+* ***kubectl context properly switched between environments***
