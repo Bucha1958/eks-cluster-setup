@@ -67,6 +67,15 @@ Switch contexts using:
 ```bash
 kubectl config use-context <context-name>
 ```
+**Operational Risk**
+
+**Using the wrong Kubernetes context in production environments can lead to:**
+
+* ***Deploying applications to the wrong cluster***
+* ***Accidental deletion of production workloads***
+* ***Draining incorrect nodes***
+* ***Misconfigured CI/CD deployments***
+
 
 **Key Learning**
 
