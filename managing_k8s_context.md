@@ -27,7 +27,8 @@ k3s installs its kubeconfig at:
 ```
 
 
-kubectl defaults to whichever kubeconfig is detected first
+kubectl uses the kubeconfig defined by the KUBECONFIG environment variable or defaults to ~/.kube/config if not specified.
+
 No KUBECONFIG environment variable was set
 Solution
 ### 1. Generate EKS kubeconfig
